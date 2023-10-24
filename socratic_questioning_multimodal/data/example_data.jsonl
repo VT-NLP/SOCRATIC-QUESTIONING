@@ -1,0 +1,1 @@
+{"unique_id": "example_dp_0", "image_source": "example_source", "task_name": "open-domain_VQA", "image_path": "../data/imgs/example_img.jpg", "target_txt": "yes", "target_id": 3, "question": "Is the color of the fire hydrant in the picture legal?", "meta_data": ["legal", "yes"]}

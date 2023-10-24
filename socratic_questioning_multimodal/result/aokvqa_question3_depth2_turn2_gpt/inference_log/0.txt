@@ -1,0 +1,104 @@
+=====================Answer a Question=====================
+Depth: 1
+Turn: 1
+ID: 0
+Question: Is the color of the fire hydrant in the picture legal?
+Type: visual
+Context: Image Caption: a fire hydrant in a grassy field
+Hint: None
+Answer: lack of information
+
+=====================Raise Depper=====================
+Depth: 1
+Turn: 1
+ID: 0
+Original Question: Is the color of the fire hydrant in the picture legal?
+Type: fact
+Context: Image Caption: a fire hydrant in a grassy field
+Hint: None
+Raise Reason: Idea: Different jurisdictions may have different regulations regarding the color of fire hydrants.
+Deeper Question: What are the common colors of fire hydrants according to regulations?
+
+=====================Answer a Question=====================
+Depth: 2
+Turn: 1
+ID: 0
+Question: What are the common colors of fire hydrants according to regulations?
+Type: fact
+Context: None
+Hint: None
+Answer: The common colors of fire hydrants according to regulations are red, yellow, or chrome.
+
+=====================Raise Depper=====================
+Depth: 1
+Turn: 1
+ID: 0
+Original Question: Is the color of the fire hydrant in the picture legal?
+Type: fact
+Context: Image Caption: a fire hydrant in a grassy field
+Hint: None
+Raise Reason: Idea: Color coding of fire hydrants may serve a specific purpose.
+Deeper Question: What is the significance of the color coding of fire hydrants?
+
+=====================Answer a Question=====================
+Depth: 2
+Turn: 1
+ID: 1
+Question: What is the significance of the color coding of fire hydrants?
+Type: fact
+Context: None
+Hint: None
+Answer: The color coding of fire hydrants indicates the flow rate and available water supply for firefighting purposes.
+
+=====================Raise Depper=====================
+Depth: 1
+Turn: 1
+ID: 0
+Original Question: Is the color of the fire hydrant in the picture legal?
+Type: visual
+Context: Image Caption: a fire hydrant in a grassy field
+Hint: {'fact': ['The common colors of fire hydrants according to regulations are red, yellow, or chrome.', 'The significance of the color coding of fire hydrants is that it indicates the flow rate and available water supply for firefighting purposes.'], 'visual': []}
+Raise Reason: Idea: To determine if the color is legal, we need to know what color the fire hydrant in the picture is.
+Deeper Question: What is the color of the fire hydrant in the picture?
+
+=====================Answer a Question=====================
+Depth: 2
+Turn: 1
+ID: 2
+Question: What is the color of the fire hydrant in the picture?
+Type: visual
+Context: Image Caption: the fire hydrant is yellow
+Hint: {'fact': ['The common colors of fire hydrants according to regulations are red, yellow, or chrome.', 'The significance of the color coding of fire hydrants is that it indicates the flow rate and available water supply for firefighting purposes.'], 'visual': []}
+Answer: yellow
+
+=====================Raise Depper=====================
+Depth: 1
+Turn: 1
+ID: 0
+Original Question: Is the color of the fire hydrant in the picture legal?
+Type: visual
+Context: Image Caption: a fire hydrant in a grassy field
+Hint: {'fact': ['The common colors of fire hydrants according to regulations are red, yellow, or chrome.', 'The significance of the color coding of fire hydrants is that it indicates the flow rate and available water supply for firefighting purposes.'], 'visual': []}
+Raise Reason: Idea: Different colors have different meanings on fire hydrants. We need to match the color of the fire hydrant in the picture to the regulations.
+Deeper Question: Does the color of the fire hydrant in the picture match any of the common colors mandated by regulations?
+
+=====================Answer a Question=====================
+Depth: 2
+Turn: 1
+ID: 3
+Question: Does the color of the fire hydrant in the picture match any of the common colors mandated by regulations?
+Type: visual
+Context: Image Caption: a fire hydrant in the grass
+Hint: {'fact': ['The common colors of fire hydrants according to regulations are red, yellow, or chrome.', 'The significance of the color coding of fire hydrants is that it indicates the flow rate and available water supply for firefighting purposes.'], 'visual': []}
+Answer: Yes
+
+=====================Answer a Question=====================
+Depth: 1
+Turn: 2
+ID: 0
+Question: Is the color of the fire hydrant in the picture legal?
+Type: visual
+Context: Image Caption: a fire hydrant in a grassy field
+Hint: {'fact': ['The common colors of fire hydrants according to regulations are red, yellow, or chrome.', 'The significance of the color coding of fire hydrants is that it indicates the flow rate and available water supply for firefighting purposes.'], 'visual': ['The color of the fire hydrant in the picture is yellow.', 'The color of the fire hydrant in the picture matches one of the common colors mandated by regulations.']}
+Answer: Yes
+

@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "context": "One seminar had 18 participants. It is known that :(1) At least 5 young teachers are female; (2) At least 6 female teachers are over middle age; (3) At least seven young women are teachers;",
+        "question": "According to the above information, which of the following can be concluded about the participants?",
+        "options": [
+            "A. Some young teachers are not women",
+            "B. Some young women are not teachers",
+            "C. There are at least 11 young teachers",
+            "D. There are at least 13 female teachers"
+        ],
+        "target": "D",
+        "prediction": "D",
+        "hints": [
+            "There are a total of 12 young teachers.",
+            "There are 7 female teachers in total.",
+            "There are a total of 5 middle-aged female teachers.",
+            "There are a total of 7 young female teachers."
+        ],
+        "grade": 1
+    }
+]

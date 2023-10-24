@@ -1,0 +1,8 @@
+{
+    "physics": "./data/mmmu/test/conceptual_physics_test.csv",
+    "chemistry": "./data/mmmu/test/high_school_chemistry_test.csv",
+    "lqa": "./data/LogiQA2.0/test.csv",
+    "prm": "./data/prm800k/prm800k/data/phase2_test.csv",
+    "gsm": "./data/grade-school-math/grade_school_math/data/test.csv",
+    "strategy": "./data/strategqa/strategyqa.csv"
+}
