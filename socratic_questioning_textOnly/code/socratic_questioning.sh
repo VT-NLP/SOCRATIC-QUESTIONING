@@ -7,5 +7,5 @@ python socratic_questioning.py \
     --max_turn=3 \
     --max_depth=3 \
     --backbone="gpt" \
-    --api="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" \
+    --api="your openai api key" \
     --save_dir=../results 
