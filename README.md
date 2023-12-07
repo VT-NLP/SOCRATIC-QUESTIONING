@@ -1,13 +1,16 @@
 # SOCRATIC-QUESTIONING
 Implementation for the paper: [The Art of SOCRATIC QUESTIONING: Recursive Thinking with Large Language Models](https://arxiv.org/abs/2305.14999). This paper has been accepted by EMNLP 2023.
 
+![Schematic comparison of various prompting methods. Each blue rectangle box represents a thought serving as an intermediate reasoning step in the problem-solving process. SOCRATIC QUESTIONING incorporates both a top-down exploration process (in red line) to deconstruct complex problems into smaller sub-questions and a bottom-up backtracking process (in green line) to recursively solve these sub-questions and gather solutions for higher-level problems.](./compare.png)
+Schematic comparison of various prompting methods. Each blue rectangle box represents a thought serving as an intermediate reasoning step in the problem-solving process. SOCRATIC QUESTIONING incorporates both a top-down exploration process (in red line) to deconstruct complex problems into smaller sub-questions and a bottom-up backtracking process (in green line) to recursively solve these sub-questions and gather solutions for higher-level problems.
+
 ## Install
 ```sh
 pip install openai
 ```
 For the multimodal implementation, please follow the official instructions to install [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2).
 
-## Run
+## Usage    
 Text-Only:
 1. Prepare the data. Input data should be given as a CSV file. Question ID, Context, Question, Option A, Option B, Option C, Option D, and Ground Truth are split by comma. An example input file is provided: ```./socratic_questioning_textOnly/data/example_data.csv```
 2. Add your own prompts into the prompts file. Prompts for tasks and datasets presented in the paper have already been written. 
